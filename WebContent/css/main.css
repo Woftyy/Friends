@@ -1,0 +1,60 @@
+/*
+*自定义样式
+* 
+*
+*/
+********************************************
+#header {
+	
+}
+********************************************
+.content {
+	width:899px;
+	
+}
+
+********************************************
+.body {
+	background-color: #F0F0F0;
+}
+
+
+********************************************
+.container {
+	background-color: white;
+    width:768px;
+}
+
+@media ( min-width : 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+@media ( min-width : 992px) {
+	.container {
+		width: 970px;
+	}
+	@media ( min-width : 1200px) {
+		.container {
+			width: 1170px;
+		}
+	}
+}
+********************************************
+.nav nav-tabs {
+	align: center;
+}
+********************************************
+.form-control {
+	width: 400px;
+	align: center;
+}
+********************************************
+.publish{
+	width:768px;
+}
+********************************************
+.look{
+	width:768px;
+}
